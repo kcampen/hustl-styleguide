@@ -1,0 +1,166 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+// bower:scss
+@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
+// endbower
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+
+    /* Make the masthead heading the same height as the navigation */
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 40px;
+        padding-bottom: 19px;
+    }
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.hustl-colors {
+    margin: 30px 0;
+    li {
+        list-style-type: none;
+        float: left;
+        position: relative;
+        padding: 10px;
+    }
+    .circle {
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+        border-radius: 50px;
+        color: white;
+        text-align: center;
+
+    }
+}
+
+.color-blue {
+    background-color: #040443;
+}
+
+.color-green {
+    background-color: #69BE69;
+}
+
+.color-light-gray {
+    background-color: #F1F2F1;
+}
+
+.color-gray {
+    background-color: #BFBFBF;
+}
+
+.style-layout {
+    padding: 20px;
+}
+
+h1 {
+    padding: 30px;
+}
+
+.form-style {
+    margin: 30px;
+}
+
+.logo-img {
+    margin: 30px;
+}
+
+.button-style {
+    margin: 30px;
+}
+
+.btn-example {
+    padding: 10px;
+}
+
+.seller-card {
+    width: 270px;
+    margin: 30px;
+}
+
+.card-style {
+    position: relative;
+    padding: 20px 15px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+
+    .project-photo {
+        vertical-align: center;
+    }
+
+    .avatar {
+        width: 140px;
+        height: 140px;
+        overflow: hidden;
+    
+    }
+}
+    
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
